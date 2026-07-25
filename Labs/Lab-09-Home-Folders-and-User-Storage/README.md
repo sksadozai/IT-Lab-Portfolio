@@ -1,4 +1,4 @@
-# Lab 09 – Home Folder Creation and Drive Mapping
+## Lab 09 – Home Folder Creation and Drive Mapping
 
 ## Objective
 
