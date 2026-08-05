@@ -1,0 +1,55 @@
+EmployeeID,FirstName,LastName,Department,JobTitle,Password
+APX1001,Ali,Khan,IT,System Administrator,Welcome@12345
+APX1002,Usman,Ali,IT,Desktop Support Engineer,Welcome@12345
+APX1003,Hamza,Malik,IT,Network Engineer,Welcome@12345
+APX1004,Hina,Iqbal,IT,Helpdesk Technician,Welcome@12345
+APX1005,Ayesha,Khan,IT,System Engineer,Welcome@12345
+APX1006,Zain,Hassan,IT,Cybersecurity Analyst,Welcome@12345
+APX1007,Omar,Siddiqui,IT,Cloud Administrator,Welcome@12345
+APX1008,Maryam,Aslam,IT,IT Support Engineer,Welcome@12345
+APX1009,Jibran,Najeeb,IT,System Analyst,Welcome@12345
+APX1010,Bilal,Ahmad,IT,Infrastructure Engineer,Welcome@12345
+
+APX2001,Fatima,Noor,Finance,Accountant,Welcome@12345
+APX2002,Ahmed,Raza,Finance,Senior Accountant,Welcome@12345
+APX2003,Saad,Ali,Finance,Finance Officer,Welcome@12345
+APX2004,Maham,Khan,Finance,Payroll Officer,Welcome@12345
+APX2005,Aliya,Malik,Finance,Auditor,Welcome@12345
+APX2006,Muhammad,Hassan,Finance,Accounts Assistant,Welcome@12345
+APX2007,Sana,Iqbal,Finance,Financial Analyst,Welcome@12345
+APX2008,Haris,Khan,Finance,Cash Officer,Welcome@12345
+APX2009,Noor,Ahmed,Finance,Tax Officer,Welcome@12345
+APX2010,Areeba,Aslam,Finance,Budget Analyst,Welcome@12345
+
+APX3001,Sara,Malik,HR,HR Officer,Welcome@12345
+APX3002,Amna,Khan,HR,Recruitment Officer,Welcome@12345
+APX3003,Usama,Raza,HR,HR Executive,Welcome@12345
+APX3004,Maryam,Ali,HR,HR Coordinator,Welcome@12345
+APX3005,Farhan,Ahmed,HR,Training Officer,Welcome@12345
+APX3006,Hira,Noor,HR,HR Manager,Welcome@12345
+APX3007,Shahzaib,Khan,HR,HR Assistant,Welcome@12345
+APX3008,Zoya,Iqbal,HR,Payroll Coordinator,Welcome@12345
+APX3009,Asad,Malik,HR,Talent Acquisition Specialist,Welcome@12345
+APX3010,Muneeba,Aslam,HR,Employee Relations Officer,Welcome@12345
+
+APX4001,Hassan,Raza,Sales,Sales Executive,Welcome@12345
+APX4002,Aiman,Khan,Sales,Sales Officer,Welcome@12345
+APX4003,Ali,Hassan,Sales,Sales Manager,Welcome@12345
+APX4004,Hamna,Malik,Sales,Marketing Executive,Welcome@12345
+APX4005,Shayan,Ahmed,Sales,Business Development Executive,Welcome@12345
+APX4006,Maham,Noor,Sales,Sales Representative,Welcome@12345
+APX4007,Saif,Khan,Sales,Regional Sales Officer,Welcome@12345
+APX4008,Komal,Ali,Sales,Customer Success Executive,Welcome@12345
+APX4009,Umer,Raza,Sales,Sales Coordinator,Welcome@12345
+APX4010,Rabia,Aslam,Sales,Marketing Coordinator,Welcome@12345
+
+APX5001,Sufyan,Shafique,Management,IT Manager,Welcome@12345
+APX5002,Asif,Khan,Management,General Manager,Welcome@12345
+APX5003,Noman,Ali,Management,Operations Manager,Welcome@12345
+APX5004,Hafsa,Malik,Management,Finance Manager,Welcome@12345
+APX5005,Zeeshan,Raza,Management,HR Manager,Welcome@12345
+APX5006,Mariam,Ahmed,Management,Chief Technology Officer,Welcome@12345
+APX5007,Abdullah,Khan,Management,Chief Executive Officer,Welcome@12345
+APX5008,Sidra,Noor,Management,Managing Director,Welcome@12345
+APX5009,Salman,Iqbal,Management,Chief Operating Officer,Welcome@12345
+APX5010,Anum,Aslam,Management,Project Director,Welcome@12345
