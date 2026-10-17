@@ -23,9 +23,8 @@ This project models a small organization, **Apex Solutions**, with a headquarter
 
 ## 2. Final topology
 
-![Final Apex Solutions topology](Screenshots/Final-Topology.png)
+![Final Apex Solutions topology](Screenshots/FinalTopo.png)
 
-> Replace the image filename above with your actual screenshot filename, or rename your topology screenshot to `Final-Topology.png`.
 
 ```text
                               INTERNET-SERVER
@@ -144,10 +143,9 @@ Created HQ VLAN 50 and a separate `HQ-Guest-AP`, connected to Switch0 `Fa0/11`. 
 
 ## 7. Screenshot organization
 
-Place your screenshots under `Screenshots/` and replace the sample names with the actual files. Suggested coverage:
 
 ```text
-Apex-Solutions-Enterprise-Network/
+Analyzing-Real-Infrastructure-Using-Packet-Tracer/Lab-01/
 ├── README.md
 ├── CommandsCheatSheet.md
 ├── Apex-Solutions-Enterprise-Network-Final.pkt
@@ -156,15 +154,7 @@ Apex-Solutions-Enterprise-Network/
     ├── HQ-VLANs-and-Trunk.png
     ├── HQ-Router-Interfaces-and-Routes.png
     ├── Branch-VLAN-and-Routes.png
-    ├── DHCP-and-DNS.png
-    ├── NAT-Translations.png
-    ├── Employee-Wireless.png
-    ├── Guest-Wireless-and-DHCP.png
-    ├── ACLs-and-Match-Counters.png
-    └── Connectivity-and-HTTP-Tests.png
-```
 
-Do not fabricate screenshots: add only images actually captured from the completed Packet Tracer project. Screenshots of configuration outputs and tests are stronger evidence than topology images alone.
 
 ## 8. Lessons and limitations
 
