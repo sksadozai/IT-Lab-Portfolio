@@ -1,0 +1,5 @@
+# Nmap 7.98 scan initiated Sun Oct 25 03:56:10 2026 as: /usr/lib/nmap/nmap -sn -PE -oN Scans/01-ICMP-Discovery.txt 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.00037s latency).
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+# Nmap done at Sun Oct 25 03:56:10 2026 -- 1 IP address (1 host up) scanned in 0.18 seconds

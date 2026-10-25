@@ -1,0 +1,2 @@
+# Nmap 7.98 scan initiated Sun Oct 25 03:59:27 2026 as: /usr/lib/nmap/nmap -sn -PA445,3389 --disable-arp-ping -oN Scans/04-TCP-ACK-Discovery.txt 192.168.10.10
+# Nmap done at Sun Oct 25 03:59:30 2026 -- 1 IP address (0 hosts up) scanned in 3.08 seconds

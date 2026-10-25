@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:19:15 2026 as: /usr/lib/nmap/nmap -sU -Pn -p53 --script dns-recursion -oA Scans/16-DC01-DNS 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.00063s latency).
+
+PORT   STATE SERVICE
+53/udp open  domain
+|_dns-recursion: Recursion appears to be enabled
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct 25 04:19:16 2026 -- 1 IP address (1 host up) scanned in 1.06 seconds

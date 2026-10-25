@@ -1,0 +1,5 @@
+# Nmap 7.98 scan initiated Sun Oct 25 03:57:07 2026 as: /usr/lib/nmap/nmap -sn -PE --disable-arp-ping -oN Scans/02-ICMP-Only.txt 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.00084s latency).
+MAC Address: 00:00:80:01:C4:E7 (Cray Communications A/S)
+# Nmap done at Sun Oct 25 03:57:08 2026 -- 1 IP address (1 host up) scanned in 0.36 seconds

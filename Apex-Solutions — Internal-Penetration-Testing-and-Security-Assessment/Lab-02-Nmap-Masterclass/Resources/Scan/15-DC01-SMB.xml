@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Sun Oct 25 04:18:30 2026 as: /usr/lib/nmap/nmap -Pn -p445 -&#45;script smb-protocols,smb2-security-mode,smb-os-discovery -oA Scans/15-DC01-SMB 192.168.10.10 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -Pn -p445 -&#45;script smb-protocols,smb2-security-mode,smb-os-discovery -oA Scans/15-DC01-SMB 192.168.10.10" start="1792916310" startstr="Sun Oct 25 04:18:30 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1792916310" endtime="1792916310"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+<hostname name="192.168.10.10" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-protocols" output="&#xa;  dialects: &#xa;    2.0.2&#xa;    2.1&#xa;    3.0&#xa;    3.0.2&#xa;    3.1.1"><table key="dialects">
+<elem>2.0.2</elem>
+<elem>2.1</elem>
+<elem>3.0</elem>
+<elem>3.0.2</elem>
+<elem>3.1.1</elem>
+</table>
+</script><script id="smb2-security-mode" output="&#xa;  3.1.1: &#xa;    Message signing enabled and required"><table key="3.1.1">
+<elem>Message signing enabled and required</elem>
+</table>
+</script></hostscript><times srtt="563" rttvar="3834" to="100000"/>
+</host>
+<runstats><finished time="1792916310" timestr="Sun Oct 25 04:18:30 2026" summary="Nmap done at Sun Oct 25 04:18:30 2026; 1 IP address (1 host up) scanned in 0.78 seconds" elapsed="0.78" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

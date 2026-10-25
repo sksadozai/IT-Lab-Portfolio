@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:13:12 2026 as: /usr/lib/nmap/nmap -sU -sV -Pn -p 53,123 -oA Scans/11-DC01-UDP-Version 192.168.10.10
+Host: 192.168.10.10 (192.168.10.10)	Status: Up
+Host: 192.168.10.10 (192.168.10.10)	Ports: 53/open/udp//domain//(generic dns response: SERVFAIL)/, 123/open/udp//ntp//NTP v3/
+# Nmap done at Sun Oct 25 04:13:39 2026 -- 1 IP address (1 host up) scanned in 26.89 seconds

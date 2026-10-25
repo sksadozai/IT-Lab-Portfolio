@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:07:24 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 53,88,135,139,389,445,464,636,3268,3269,3389 -oA Scans/08-DC01-Targeted 192.168.10.10
+Host: 192.168.10.10 (192.168.10.10)	Status: Up
+Host: 192.168.10.10 (192.168.10.10)	Ports: 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 636/open/tcp//ldapssl///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///, 3389/filtered/tcp//ms-wbt-server///
+# Nmap done at Sun Oct 25 04:07:25 2026 -- 1 IP address (1 host up) scanned in 1.78 seconds

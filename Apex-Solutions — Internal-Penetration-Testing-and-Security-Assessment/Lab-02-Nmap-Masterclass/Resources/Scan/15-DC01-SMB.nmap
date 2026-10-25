@@ -1,0 +1,21 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:18:30 2026 as: /usr/lib/nmap/nmap -Pn -p445 --script smb-protocols,smb2-security-mode,smb-os-discovery -oA Scans/15-DC01-SMB 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.00056s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+
+Host script results:
+| smb-protocols: 
+|   dialects: 
+|     2.0.2
+|     2.1
+|     3.0
+|     3.0.2
+|_    3.1.1
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+
+# Nmap done at Sun Oct 25 04:18:30 2026 -- 1 IP address (1 host up) scanned in 0.78 seconds

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Sun Oct 25 04:00:40 2026 as: /usr/lib/nmap/nmap -sn -oA Scans/05-CorpNet-Discovery 192.168.10.0/24 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sn -oA Scans/05-CorpNet-Discovery 192.168.10.0/24" start="1792915240" startstr="Sun Oct 25 04:00:40 2026" version="7.98" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+<hostname name="192.168.10.10" type="PTR"/>
+</hostnames>
+<times srtt="1930" rttvar="1942" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.10.50" addrtype="ipv4"/>
+<hostnames>
+<hostname name="192.168.10.50" type="PTR"/>
+</hostnames>
+</host>
+<runstats><finished time="1792915242" timestr="Sun Oct 25 04:00:42 2026" summary="Nmap done at Sun Oct 25 04:00:42 2026; 256 IP addresses (2 hosts up) scanned in 2.54 seconds" elapsed="2.54" exit="success"/><hosts up="2" down="254" total="256"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,21 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:13:59 2026 as: /usr/lib/nmap/nmap -sV -Pn -p 53,88,135,139,389,445,464,636,3268,3269,3389 -oA Scans/12-DC01-Services 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.00077s latency).
+
+PORT     STATE    SERVICE       VERSION
+53/tcp   open     domain        Simple DNS Plus
+88/tcp   open     kerberos-sec  Microsoft Windows Kerberos (server time: 2026-10-25 20:14:05Z)
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open     ldap          Microsoft Windows Active Directory LDAP (Domain: sufyanlab.local, Site: Default-First-Site-Name)
+445/tcp  open     microsoft-ds?
+464/tcp  open     kpasswd5?
+636/tcp  open     tcpwrapped
+3268/tcp open     ldap          Microsoft Windows Active Directory LDAP (Domain: sufyanlab.local, Site: Default-First-Site-Name)
+3269/tcp open     tcpwrapped
+3389/tcp filtered ms-wbt-server
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 25 04:14:07 2026 -- 1 IP address (1 host up) scanned in 8.43 seconds

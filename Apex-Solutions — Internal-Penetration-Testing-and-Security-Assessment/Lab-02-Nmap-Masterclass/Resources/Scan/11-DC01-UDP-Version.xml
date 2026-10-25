@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Sun Oct 25 04:13:12 2026 as: /usr/lib/nmap/nmap -sU -sV -Pn -p 53,123 -oA Scans/11-DC01-UDP-Version 192.168.10.10 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sU -sV -Pn -p 53,123 -oA Scans/11-DC01-UDP-Version 192.168.10.10" start="1792915992" startstr="Sun Oct 25 04:13:12 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="2" services="53,123"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1792915994" endtime="1792916019"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+<hostname name="192.168.10.10" type="PTR"/>
+</hostnames>
+<ports><port protocol="udp" portid="53"><state state="open" reason="udp-response" reason_ttl="128"/><service name="domain" extrainfo="generic dns response: SERVFAIL" servicefp="SF-Port53-UDP:V=7.98%I=7%D=10/25%Time=6ADDBA29%P=x86_64-pc-linux-gnu%r(DNS-SD,2E,&quot;\0\0\x80\x82\0\x01\0\0\0\0\0\0\t_services\x07_dns-sd\x04_udp\x05local\0\0\x0c\0\x01&quot;)%r(NBTStat,32,&quot;\x80\xf0\x80\x82\0\x01\0\0\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\0\0!\0\x01&quot;);" method="probed" conf="10"/></port>
+<port protocol="udp" portid="123"><state state="open" reason="udp-response" reason_ttl="128"/><service name="ntp" product="NTP" version="v3" method="probed" conf="10"/></port>
+</ports>
+<times srtt="2104" rttvar="3444" to="100000"/>
+</host>
+<runstats><finished time="1792916019" timestr="Sun Oct 25 04:13:39 2026" summary="Nmap done at Sun Oct 25 04:13:39 2026; 1 IP address (1 host up) scanned in 26.89 seconds" elapsed="26.89" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

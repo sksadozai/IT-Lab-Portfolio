@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Sun Oct 25 04:12:51 2026 as: /usr/lib/nmap/nmap -sU -Pn -p 53,123,137,138,161 -oA Scans/10-DC01-UDP 192.168.10.10 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sU -Pn -p 53,123,137,138,161 -oA Scans/10-DC01-UDP 192.168.10.10" start="1792915971" startstr="Sun Oct 25 04:12:51 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="5" services="53,123,137-138,161"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1792915972" endtime="1792915973"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.10" addrtype="ipv4"/>
+<address addr="08:00:27:5B:AD:F4" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+<hostname name="192.168.10.10" type="PTR"/>
+</hostnames>
+<ports><port protocol="udp" portid="53"><state state="open" reason="udp-response" reason_ttl="128"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="open" reason="udp-response" reason_ttl="128"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="open" reason="udp-response" reason_ttl="128"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="138"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="1345" rttvar="3894" to="100000"/>
+</host>
+<runstats><finished time="1792915973" timestr="Sun Oct 25 04:12:53 2026" summary="Nmap done at Sun Oct 25 04:12:53 2026; 1 IP address (1 host up) scanned in 1.77 seconds" elapsed="1.77" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

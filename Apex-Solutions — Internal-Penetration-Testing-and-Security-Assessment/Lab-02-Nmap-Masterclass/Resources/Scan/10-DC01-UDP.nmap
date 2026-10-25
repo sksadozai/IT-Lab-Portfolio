@@ -1,0 +1,13 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:12:51 2026 as: /usr/lib/nmap/nmap -sU -Pn -p 53,123,137,138,161 -oA Scans/10-DC01-UDP 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.0013s latency).
+
+PORT    STATE         SERVICE
+53/udp  open          domain
+123/udp open          ntp
+137/udp open          netbios-ns
+138/udp open|filtered netbios-dgm
+161/udp open|filtered snmp
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct 25 04:12:53 2026 -- 1 IP address (1 host up) scanned in 1.77 seconds

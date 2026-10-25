@@ -1,0 +1,16 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:13:12 2026 as: /usr/lib/nmap/nmap -sU -sV -Pn -p 53,123 -oA Scans/11-DC01-UDP-Version 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.0021s latency).
+
+PORT    STATE SERVICE VERSION
+53/udp  open  domain  (generic dns response: SERVFAIL)
+123/udp open  ntp     NTP v3
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-UDP:V=7.98%I=7%D=10/25%Time=6ADDBA29%P=x86_64-pc-linux-gnu%r(DNS
+SF:-SD,2E,"\0\0\x80\x82\0\x01\0\0\0\0\0\0\t_services\x07_dns-sd\x04_udp\x0
+SF:5local\0\0\x0c\0\x01")%r(NBTStat,32,"\x80\xf0\x80\x82\0\x01\0\0\0\0\0\0
+SF:\x20CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\0\0!\0\x01");
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 25 04:13:39 2026 -- 1 IP address (1 host up) scanned in 26.89 seconds

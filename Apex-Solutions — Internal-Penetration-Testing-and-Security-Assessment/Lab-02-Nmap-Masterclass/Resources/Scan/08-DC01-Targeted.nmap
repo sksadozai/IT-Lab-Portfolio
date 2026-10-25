@@ -1,0 +1,19 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:07:24 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 53,88,135,139,389,445,464,636,3268,3269,3389 -oA Scans/08-DC01-Targeted 192.168.10.10
+Nmap scan report for 192.168.10.10 (192.168.10.10)
+Host is up (0.0023s latency).
+
+PORT     STATE    SERVICE
+53/tcp   open     domain
+88/tcp   open     kerberos-sec
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+389/tcp  open     ldap
+445/tcp  open     microsoft-ds
+464/tcp  open     kpasswd5
+636/tcp  open     ldapssl
+3268/tcp open     globalcatLDAP
+3269/tcp open     globalcatLDAPssl
+3389/tcp filtered ms-wbt-server
+MAC Address: 08:00:27:5B:AD:F4 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Oct 25 04:07:25 2026 -- 1 IP address (1 host up) scanned in 1.78 seconds

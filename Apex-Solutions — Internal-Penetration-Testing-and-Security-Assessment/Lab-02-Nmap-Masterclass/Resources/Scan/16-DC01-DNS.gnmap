@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Sun Oct 25 04:19:15 2026 as: /usr/lib/nmap/nmap -sU -Pn -p53 --script dns-recursion -oA Scans/16-DC01-DNS 192.168.10.10
+Host: 192.168.10.10 (192.168.10.10)	Status: Up
+Host: 192.168.10.10 (192.168.10.10)	Ports: 53/open/udp//domain///
+# Nmap done at Sun Oct 25 04:19:16 2026 -- 1 IP address (1 host up) scanned in 1.06 seconds
